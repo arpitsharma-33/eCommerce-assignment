@@ -30,7 +30,7 @@ const ProductCard = ({ data }) => {
                 className="flex justify-center px-4 py-1 cursor-pointer  gap-2 my-2 rounded-full items-center bg-slate-800 text-white "
                 onClick={handleAddToCart}
               >
-                <p>add to Cart</p>
+                <p>Add to Cart</p>
 
                 <FaShoppingCart />
               </div>
