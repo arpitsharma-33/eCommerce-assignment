@@ -5,6 +5,7 @@ import { useSelector, useDispatch } from "react-redux";
 import CartPage from "../../pages/CartPage"; // Import the CartPage component here
 import { useState } from "react";
 import { useCartContext } from "../../context/Cart";
+import Logo from "../../assets/ecomm-high-resolution-logo-white.png"
 
 const Navbar = () => {
   // const cartItems = useSelector((state) => state.cart.cart);
@@ -29,7 +30,7 @@ const Navbar = () => {
         <nav className="flex px-[5%] items-center container mx-auto justify-between">
           <div>
             <Link to="/">
-              <img src="" alt="logo" className="w-10px" />
+              <img src={Logo} alt="logo" className="h-20 w-25" />
             </Link>
           </div>
           <div>
