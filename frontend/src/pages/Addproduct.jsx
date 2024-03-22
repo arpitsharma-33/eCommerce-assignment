@@ -10,7 +10,7 @@ const AddProduct = () => {
     unitPrice: "",
     file: null,
   });
-  const url = "http://localhost:5000/api/addproduct";
+  const url = "http://localhost:5000/api/products/add-product";
 
   const handleChange = (e) => {
     const { name, value } = e.target;
